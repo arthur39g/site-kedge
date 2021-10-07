@@ -33,6 +33,31 @@ i{
 	display: inline;
 }
 
-.button-blue : hover{
-	
+.button-blue {
+	background-color: blue;
+	color: white;
+	font-weight: bold;
+	padding: 16px;
+	border-radius: 6px;
+	border: 1px blue solid;
+	margin: 24px auto;
+	display: block;
+	width: 20%;
+	transition : 1s;
+}
+
+.button-blue:hover{
+	background-color: white;
+	color:blue;
+	transition 1s;
+}
+
+i{
+	font-size: 48px;
+	color: rgba(0,0,0,4);
+}
+
+.list-inline li{
+	display: inline;
+	margin: 0 3px;
 }
