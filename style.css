@@ -8,7 +8,7 @@ h1 {
 }
 
 body {
-	background-color: white;
+	background-color: #BAF6C5;
 	text-align:center;
 
 }
@@ -19,6 +19,7 @@ div {
 	margin: 50px;
 	box-shadow: 6px 9px 20px 0px black;
 	font-family: 'Lato', sans-serif;
+	width: 85%;
 }
 
 img{
@@ -29,17 +30,13 @@ i{
 	font-size: 50px
 }
 
-.list-inline li{
-	display: inline;
-}
-
 .button-blue {
-	background-color: blue;
-	color: white;
+	background-color: #BAF6C5;
+	color: rgba(0,0,0,4);
 	font-weight: bold;
 	padding: 16px;
 	border-radius: 6px;
-	border: 1px blue solid;
+	border: 1px #BAF6C5 solid;
 	margin: 24px auto;
 	display: block;
 	width: 20%;
@@ -48,7 +45,7 @@ i{
 
 .button-blue:hover{
 	background-color: white;
-	color:blue;
+	color: white;
 	transition 1s;
 }
 
@@ -61,3 +58,7 @@ i{
 	display: inline;
 	margin: 0 3px;
 }
+
+.list-inline {
+	padding: 0;
+	}
